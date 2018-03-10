@@ -1,0 +1,175 @@
+/*DEFAULTS*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+/*	text-align: center;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearFix{
+	clear: both;
+}
+
+/*DEFAULTS END*/
+
+
+.container{
+	/*border: 5px solid grey;*/
+	height: 890px;
+	width: 100%;
+	margin: auto;
+	background-color: grey;
+}
+
+
+
+
+
+/*NAVBAR*/
+
+nav{
+	height: 90px;
+	background-color: white;
+}
+
+
+.title,
+.menu{
+	float: left;
+	height: 90px;
+}
+
+.title{
+	width: 40%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.menu {
+	width: 60%;
+	/*position: relative;*/
+}
+
+.menu ul{
+	position: absolute;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+}
+
+li a{
+	display: inline-block;
+	color: black;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    margin: 33px 15px;
+    border: none;
+    padding: 0 0;
+    transition: all 0.1s linear;
+}
+
+li#point a{
+	border-right: 2px solid #D1773D;
+    border-left: 2px solid #D1773D;
+    color: #D1773D;
+    padding: 0 5px;
+}
+
+li a:hover{
+    border-right: 2px solid #D1773D;  /*#46b0c3*/
+    border-left: 2px solid #D1773D;
+    color: #D1773D;
+    padding: 0 5px;
+}
+
+#download{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #D1773D;
+	position: relative;
+	right: -25px;
+	top: 32px;
+	font-size: 13px;
+	padding: 7px 14px;
+	border-radius: 1px;
+	font-weight: normal;
+	color: white;
+	border: 1px solid #c66a2f;
+    transition: all 0.1s linear;
+}
+
+#download:hover{
+	color: #D1773D;
+	background-color: white;
+}
+
+/*NAVBAR END*/
+
+
+/*MAINPART*/
+
+.mainPart{
+	height: 800px;
+	background-image: url(main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*font-family: 'Karma', serif;*/
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+	position: relative;
+}
+
+
+.mainPart h1{
+	position: absolute;
+	top: 20%;
+	left: 150px;
+	font-size: 50px;
+}
+
+.mainPart h5{
+	position: absolute;
+	top: 30%;
+	left: 150px;
+	font-size: 14px;
+	color: #676765;
+}
+
+.mainPart a{
+	position: absolute;
+	top: 38%;
+	font-family: 'Open Sans', sans-serif;
+	left: 150px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #676765;
+	padding: 15px 25px;
+    line-height: 1.33;
+	letter-spacing: 0.25em;
+	background-color: white;
+	border: 1px solid black;	
+	box-shadow: 0px 0px 5px #888;
+    transition: all 0.1s linear;
+
+
+}
+
+.mainPart a:hover{
+	box-shadow: -5px -5px 0px 0px rgba(0,0,0,0.28);
+	color: white;
+    background-color: #333;
+    border-color: #979797;
+}
+
+
+
+
+/*MAINPART END*/
